@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaume - Portafolio Moderno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>Jaume</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Hola, soy <span class="text-gradient">Jaume</span></h1>
+                <p class="hero-subtitle">Desarrollador Frontend apasionado por crear experiencias digitales excepcionales</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Ver Proyectos</button>
+                    <button class="btn btn-secondary">Descargar CV</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar">J</div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="proyectos" class="projects">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>E-commerce Platform</h3>
+                    <p>Plataforma de comercio electrónico con React y Node.js</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p>Aplicación de clima con API integration y diseño responsive</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>API</span>
+                        <span>CSS3</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Task Manager</h3>
+                    <p>Sistema de gestión de tareas con drag and drop functionality</p>
+                    <div class="project-tags">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                        <span>Vuex</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="habilidades" class="skills">
+            <h2 class="section-title">Mis Habilidades</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <span>HTML/CSS</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>React</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Jaume. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/theme-switcher.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
